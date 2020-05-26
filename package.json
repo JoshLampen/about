@@ -1,0 +1,26 @@
+{
+  "name": "about",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "./node_modules/.bin/nodemon --watch server -e js app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshLampen/about.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoshLampen/about/issues"
+  },
+  "homepage": "https://github.com/JoshLampen/about#readme",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
