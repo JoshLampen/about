@@ -1,0 +1,39 @@
+@import 'variables';
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: $prim-blue;
+  color: white;
+  font-family: $logo-font;
+  font-size: 30px;
+  padding: 0px 20px 0px 20px;
+}
+
+.nav-buttons {
+  display: flex;
+  height: 100%;
+  font-family: $button-font;
+  font-size: 20px;
+  margin-right: 20px;
+  list-style: none;
+}
+
+.nav-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100%;
+  text-align: center;
+}
+
+.nav-buttons a:hover {
+  background-color: $prim-blue-hover;
+}

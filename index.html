@@ -9,28 +9,54 @@
     <!-- External CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
 
     <!-- App CSS -->
-    <link rel="stylesheet" href="css/layout.css" type="text/css">
-    <link rel="stylesheet" href="css/nav.css" type="text/css">
-    <link rel="stylesheet" href="css/about.css" type="text/css">
-    <link rel="stylesheet" href="css/projects.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/layout.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/nav.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/about.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/projects.css" type="text/css">
+
+    <!-- External JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- App JS -->
+    <script type="text/javascript" src="assets/scripts/project-hover.js"></script>
+    <script type="text/javascript" src="assets/scripts/page-scroll.js"></script>
   </head>
   <body>
     <nav>
       <span>Josh Lampen</span>
-      <div class="nav-buttons">
-        <div>About</div>
-        <div>Projects</div>
-        <div>Contact</div>
-      </div>
+      <ul class="nav-buttons">
+        <li><a href="#top">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
+    <a id="top"></a>
     <div id="about">
       <h1>Hi, I'm Josh</h1>
       <p>a full-stack web developer</p>
     </div>
     <div id="projects">
+      <a href="https://github.com/JoshLampen/tweeter" target="_blank" class="project-container">
+        <img src="https://github.com/JoshLampen/portfolio/blob/master/assets/docs/tweeter.png?raw=true">
+        <h2>Tweeter</h2>
+        <div>
+          <p class="p-hover"><</p>
+          <p class="p-static">jQuery, Ajax, CSS, HTML</p>
+          <p class="p-hover">/></p>
+        </div>
+      </a>
+      <a href="https://github.com/JoshLampen/tinyapp" target="_blank" class="project-container">
+        <img src="https://github.com/JoshLampen/portfolio/blob/master/assets/docs/tinyapp.png?raw=true">
+        <h2>TinyApp</h2>
+        <div>
+          <p class="p-hover"><</p>
+          <p class="p-static">Javascript, CSS, HTML</p>
+          <p class="p-hover">/></p>
+        </div>
+      </a>
     </div>
   </body>
 </html>
