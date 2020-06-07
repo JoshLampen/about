@@ -25,7 +25,7 @@
     <!-- App JS -->
     <script type="text/javascript" src="assets/scripts/project-hover.js"></script>
     <script type="text/javascript" src="assets/scripts/page-scroll.js"></script>
-    <script type="text/javascript" src="assets/scripts/type-animation.js"></script>
+    <script type="text/javascript" src="assets/scripts/load-animation.js"></script>
   </head>
   <body>
     <nav>
@@ -38,12 +38,25 @@
     </nav>
     <a id="top"></a>
     <div id="about">
-      <h1></h1>
-      <h2></h2>
+      <div></div>
+      <div id="text">
+        <h1></h1>
+        <h2></h2>
+      </div>
+      <div id="arrow"><a href="#middle"><i class="fas fa-angle-double-down"></i></a></div>
     </div>
     <a id="middle"></a>
     <div id="projects">
-      <a href="https://github.com/JoshLampen/tweeter" target="_blank" class="project-container" id="top-project">
+      <a href="https://mapbook.herokuapp.com/" target="_blank" class="project-container">
+        <img src="https://github.com/JoshLampen/mapbook/blob/master/docs/home-screen.png?raw=true">
+        <h2>MapBook</h2>
+        <div>
+          <p class="p-hover"><</p>
+          <p class="p-static">Google Maps API, SQL, jQuery, Ajax</p>
+          <p class="p-hover">/></p>
+        </div>
+      </a>
+      <a href="https://github.com/JoshLampen/tweeter" target="_blank" class="project-container">
         <img src="https://github.com/JoshLampen/portfolio/blob/master/assets/docs/tweeter.png?raw=true">
         <h2>Tweeter</h2>
         <div>
@@ -61,10 +74,6 @@
           <p class="p-hover">/></p>
         </div>
       </a>
-      <div class="project-container" id="bottom-project">
-        <i class="fas fa-tools"></i>
-        <h2 style="color: grey">Coming Soon</h2>
-      </div>
     </div>
     <a id="bottom"></a>
     <div id="contact">
