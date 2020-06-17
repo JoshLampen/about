@@ -63,8 +63,8 @@ $(document).ready(function() {
 
   setTimeout(() => $h2.text("a full-stack web developer"), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 100);
 
-  setTimeout(() => $h2.slideDown(), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 1500);
-  setTimeout(() => $arrow.slideDown(), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 2500);
+  setTimeout(() => $h2.slideDown(), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 1000);
+  setTimeout(() => $arrow.slideDown(), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 2000);
 
   $(window).scroll(function() {
     if ($(this).scrollTop() >= 0) {
