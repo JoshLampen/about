@@ -61,7 +61,7 @@ $(document).ready(function() {
   setTimeout(() => $h1.text("Hi, I'm Josh"), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8]);
   
 
-  setTimeout(() => $h2.text("a full-stack web developer"), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 100);
+  setTimeout(() => $h2.text("a full-stack developer"), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 100);
 
   setTimeout(() => $h2.slideDown(), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 1000);
   setTimeout(() => $arrow.slideDown(), 2000 + firstSumRandomTimes[3] + 500 + secondSumRandomTimes[8] + 2000);
